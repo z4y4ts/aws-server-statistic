@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.button-container {
+	min-height: 200px;
+	margin-top: 400px;
+	width: 100%;
+	text-align: center;
+}
+
+a.btn-boss {
+	display: inline-block;
+	color: #666;
+	background-color: #eee;
+	padding: 10 25;
+	border: 1px solid rgba(0,0,0,0.3);
+}
+
+a.btn-tech-employee {
+	display: inline-block;
+	color: #666;
+	background-color: #eee;
+	padding: 10 25;
+	border: 1px solid rgba(0,0,0,0.3);
+}
+
+a.btn-boss:hover {
+	background-color: #e3e3e3;
+	border-color: rgba(0,0,0,0.3);
+}
+
+a.btn-tech-employee:hover {
+	background-color: #e3e3e3;
+	border-color: rgba(0,0,0,0.3);
+}
+

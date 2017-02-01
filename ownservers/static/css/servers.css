@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Istok+Web:400,700&subset=cyrillic');
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    font-family: Istok Web;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-title {
+    margin-top: 6%;
+    flex-basis: 20%;
+    height: 100px;
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 40px;
+    text-shadow: 1px 1px 3px #666, -1px -1px 3px #FFF, 1px 1px #666, -1px -1px #FFF; color: #ddcca3;
+}
+
+.server-title,
+.billing-title{
+    margin-top: 6%;
+    flex-basis: 33.33%;
+    height: 100px;
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 40px;
+    text-shadow: 1px 1px 3px #666, -1px -1px 3px #FFF, 1px 1px #666, -1px -1px #FFF; color: #ddcca3;
+}
+
+.menu-list {
+    margin-top: 50px;
+    flex-basis: 20%;
+    height: 40%;
+
+}
+
+.server-information {
+    border: 1px solid black;
+    flex-basis: 33.33%;
+
+}
+
+.billing-information {
+    border: 1px solid black;
+    flex-basis: 33.33%;
+}
+
+.server-information-list li {
+    border-top: 1px solid #C1C3D1;
+    border-bottom-: 1px solid #C1C3D1;
+    color:#666B85;
+    font-size:16px;
+    font-weight:normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+.server-information {
+    float: left;
+    margin-top: 50px;
+    background: #f8f8f8;
+    border-radius: 6px;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,.2);
+
+
+}
+
+.server-information strong { font-weight: 700; color: #3d3d3d; }
+
+.server-information-list {
+    padding: 2% 0 0 2%;
+    font-size: 18px;
+    list-style-type: none;
+    margin: 15px 30px 0 30px;
+    padding: 0 10px 15px 10px;
+
+    line-height: 30px;
+    font-size: 16px;
+    color: #888;
+}
+
+.servers-list {
+    list-style-type: none;
+    padding: 0 0 0 45px;
+}
+
+.servers-list li {
+    padding-top: 15px;
+}
+
+a.btn {
+text-decoration: none;
+	display: inline-block;
+	color: #666;
+	background-color: #eee;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
+}
+
+a.btn:hover {
+	background-color: #e3e3e3;
+	border-color: rgba(0,0,0,0.5);
+}
+
+a.btn:active {
+	background-color: #CCC;
+	border-color: rgba(0,0,0,0.9);
+}
+
+
+
+

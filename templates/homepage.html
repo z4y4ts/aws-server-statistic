@@ -1,0 +1,22 @@
+{% load staticfiles %}
+
+<html>
+<head>
+
+	<title>EC2 statistic for employments</title>
+    <link rel="stylesheet" type="text/css" href="{% static "css/styles.css" %}">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="button-container">
+            <p>
+                <a href="{% url 'ownservers:server' 'boss' basic_instance %}" class="btn-boss">BOSS</a>
+                <a href="{% url 'ownservers:server' 'employee' basic_instance %}" class="btn-tech-employee">Tech-employee</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
